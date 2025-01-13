@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 h2 {
@@ -44,9 +46,6 @@ a {
   text-decoration: none;
 }
 
-label {
-  font-weight: bold;
-}
 
 input {
   width: 100%;
@@ -59,6 +58,14 @@ input[type="radio"] {
   width: max-content;
   height: max-content;
   padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+input[type="number"]
+input[type="name"] {
+  height: 30px;
 }
 
 input[type="submit"] {
@@ -83,3 +90,12 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
+
+.gap {
+  margin-bottom: 30px;
+}
+
+.gap label {
+  font-weight: bold;
+}
+

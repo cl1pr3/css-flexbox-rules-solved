@@ -65,13 +65,13 @@ Acceptance criteria:
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
-- [ ] Maintain a 6px distance between the label and the input.
-- [ ] Keep a 30px distance between each row.
-- [ ] Bolden label text when paired with a text or text-like input field.
-- [ ] Avoid bold formatting for labels paired with checkboxes and radios.
-- [ ] Utilize a paragraph element if the label element can't be used.
-- [ ] Ensure inputs span the full width available within the parent.
+- [- ] Wrap each group of a label and input elements with a container representing a row.
+- [ -] Maintain a 6px distance between the label and the input.
+- [ -] Keep a 30px distance between each row.
+- [- ] Bolden label text when paired with a text or text-like input field.
+- [ -] Avoid bold formatting for labels paired with checkboxes and radios.
+- [ -] Utilize a paragraph element if the label element can't be used.
+- [ -] Ensure inputs span the full width available within the parent.
 - [ ] Set the height of inputs with text-like values to 30px.
 - [ ] Set the height of dropdown elements to 30px.
 
