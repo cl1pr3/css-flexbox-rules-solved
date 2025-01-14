@@ -46,6 +46,10 @@ a {
   text-decoration: none;
 }
 
+select {
+  height: 30px;
+}
+
 
 input {
   width: 100%;
@@ -91,11 +95,12 @@ input[type="submit"]:hover {
   height: 30px;
 }
 
-.gap {
-  margin-bottom: 30px;
+.form-input-control {
+  padding-bottom: 30px;
 }
 
-.gap label {
+.text label {
   font-weight: bold;
+  height: 30px;
 }
 
