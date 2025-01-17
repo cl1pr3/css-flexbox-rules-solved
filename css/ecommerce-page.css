@@ -37,9 +37,16 @@ section {
 }
 
 .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo-search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo {
@@ -54,6 +61,8 @@ section {
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar input {
@@ -68,9 +77,12 @@ section {
 
 .search-bar i {
   color: #8d8ba5;
+  display: flex;
 }
 
 .options {
+  display: flex;
+  gap: 20px;
 }
 
 .option {
@@ -87,6 +99,9 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .category {
@@ -110,7 +125,17 @@ section {
   color: #1f1f27;
 }
 
+/* cannot figure out how to center the icons in the categories section */
 .view-options {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.view-options i {
+  display:flex;
+  justify-content: center;
+  align-items: space-around
 }
 
 i.fa-th-list {
@@ -118,6 +143,8 @@ i.fa-th-list {
 }
 
 .section-control {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
 }
@@ -182,6 +209,10 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;  
 }
 
 .grid .product {
@@ -191,51 +222,93 @@ i.fa-th-list {
 
 .grid .product-image-wrapper {
   height: 200px;
+  padding-bottom: 20px;
 }
 
 .grid .product-data {
   height: 100%;
+  padding: 20px;
+  padding-top: 20px;
 }
 
 .grid .product-info {
-  text-align: center;
+  min-height: 200px;
   padding: 0 20px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
 }
 
 .grid .product-action {
   padding-top: 30px;
+  
   border-top: 1px solid #8d8ba5;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.grid.product-action.buy-btn {
+  margin-top: 0;
 }
 
 /* LINE VIEW STYLES */
 
 .lines.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .lines .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .lines .product-image-wrapper {
   min-width: 300px;
   height: 200px;
+  padding-right: 20px;
 }
 
 .lines .product-data {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: space-evenly;
+  padding-top: 20px;
 }
 
 .lines .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .lines .product-action {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  
 }
 
 /* LINES-ACTION VIEW */
 
 .lines-action.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .lines-action .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
 }
 
 .lines-action .product-image-wrapper {
@@ -244,13 +317,25 @@ i.fa-th-list {
 }
 
 .lines-action .product-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .lines-action .product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: flex-start;
+  gap: 10px;
 }
 
 .lines-action .product-action {
   border-left: 1px solid #8d8ba5;
   padding-left: 30px;
   min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }

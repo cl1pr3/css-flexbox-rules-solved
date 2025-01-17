@@ -83,39 +83,39 @@ For the "Sign In form":
   - [ -] Should include a placeholder.
   - [- ] The value should be validated as an email by the default browser mechanism.
 - [- ] The password input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [- ] Should require a value.
+  - [- ] Should include a placeholder.
+  - [- ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
   - [ ] Should hide symbols during typing.
 - [ ] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
 
 For the "Sign Up Form"
 
-- [ ] The name input element
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-- [ ] The email input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-  - [ ] Should include a placeholder.
-- [ ] The password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The confirm password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The phone number input
-  - [ ] Should require a value
-  - [ ] The value should be validated to follow a template of telephone number strictly.
-- [ ] The avatar input
-  - [ ] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
-- [ ] The state dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
-  - [ ] The default option should be unavailable to be selected.
-- [ ] The city dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
+- [ -] The name input element
+  - [ -] Should require a value.
+  - [ -] Should include a placeholder.
+- [- ] The email input element
+  - [- ] Should require a value.
+  - [- ] The value should be validated as an email by the default browser mechanism.
+  - [ -] Should include a placeholder.
+- [- ] The password input element
+  - [ -] Should require a value.
+  - [- ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [- ] Should hide symbols during typing.
+- [ -] The confirm password input element
+  - [ -] Should require a value.
+  - [ -] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [- ] Should hide symbols during typing.
+- [- ] The phone number input
+  - [ -] Should require a value
+  - [ -] The value should be validated to follow a template of telephone number strictly.
+- [- ] The avatar input
+  - [ -] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
+- [- ] The state dropdown list
+  - [ -] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
+  - [ -] The default option should be unavailable to be selected.
+- [ -] The city dropdown list
+  - [ -] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
   - [ ] The default option should be unavailable to be selected.
 - [ ] The Gender single-option group
   - [ ] Clicking the label should activate the corresponding radio button.
@@ -132,7 +132,7 @@ Acceptance criteria:
 - [ ] Refrain from using the margin CSS rule to specify distances between elements.
 - [ ] Positioning is prohibited.
 - [ ] When switching between views, display a different product list view.
-- [ ] The HTML file should remain unchanged; no updates or modifications are allowed.
+- [ ] The HTML file should remain unchanged; no updates or modifications are allowed. <!--modified to add lines for readability-->
 - [ ] The permitted list of CSS rules to add to the styles file is as follows:
   - `border-*`
   - `padding-*`

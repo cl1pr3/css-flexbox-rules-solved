@@ -60,14 +60,14 @@ input {
 input[type="checkbox"],
 input[type="radio"] {
   width: max-content;
-  height: max-content;
+  height: 30px;
   padding: 0;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="password"]
-input[type="number"]
+input[type="password"],
+input[type="number"],
 input[type="name"] {
   height: 30px;
 }
