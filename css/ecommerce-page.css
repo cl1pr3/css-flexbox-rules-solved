@@ -133,9 +133,10 @@ section {
 }
 
 .view-options i {
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items: space-around
+  padding: 9px;
+  font-size: large;
 }
 
 i.fa-th-list {
@@ -212,7 +213,7 @@ i.fa-th-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-evenly;  
+  justify-content: flex-start;  
 }
 
 .grid .product {
@@ -242,9 +243,8 @@ i.fa-th-list {
 
 .grid .product-action {
   padding-top: 30px;
-  
   border-top: 1px solid #8d8ba5;
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -263,7 +263,7 @@ i.fa-th-list {
 .lines .product {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
 }
 
@@ -325,9 +325,10 @@ i.fa-th-list {
 .lines-action .product-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: flex-start;
+  justify-content: space-evenly;
   gap: 10px;
+  padding-right: 30px;
+
 }
 
 .lines-action .product-action {
@@ -338,4 +339,9 @@ i.fa-th-list {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.lines-action .product-name {
+  display: flex;
+  justify-content: flex-start
 }
